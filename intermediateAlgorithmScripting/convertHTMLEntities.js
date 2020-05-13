@@ -21,13 +21,12 @@ function convertHTML(str) {
         newStr += str[i];
         break;
     }
-
-
   }
-
-
   console.log(newStr)
-  return str;
+  return newStr;
 }
 
 convertHTML("Dolce & Gabbana");
+
+/* Convert the characters &, <, >, " (double quote), and ' (apostrophe), in a string to their corresponding HTML entities.
+https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/convert-html-entities */

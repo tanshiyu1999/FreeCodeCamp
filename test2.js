@@ -1,3 +1,3 @@
-let cat = "!@4124"
-let dog = "!@4124"
-console.log(cat + dog)
+let cat;
+cat = 5
+console.log(cat)
