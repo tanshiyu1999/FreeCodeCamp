@@ -1,3 +1,1 @@
-let cat;
-cat = 5
-console.log(cat)
+console.log(10000%10)
