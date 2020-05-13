@@ -5,12 +5,15 @@ function fearNotLetter(str) {
   var j = 0;
   for (let i = startingIndex; i < loop; i++) {
     if (str[j] !== alphabets[i]) {
-      console.log(alphabets[i])
-      break;
+      return alphabets[i];
     }
-    console.log("aye")
     j++;
   }
+  return undefined;
 }
 
 fearNotLetter("abce");
+
+/* Find the missing letter in the passed letter range and return it.
+If all letters are present in the range, return undefined.
+https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/missing-letters */
