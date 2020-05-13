@@ -1,5 +1,6 @@
-let cat = "hweawe";
+ let arr =  [[3, [[4]]]];
+ let arr2 = [];
+ arr2.push(...arr.shift());
+ arr.push(...arr2)
 
-
-let dog = [1,2,3];
-console.log(...dog)
+ console.log(arr)
