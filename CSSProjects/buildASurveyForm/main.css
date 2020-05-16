@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Asap, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url("images/background.jpg")
+}
+
+#introduction {
+  text-align: center;
+  color: white;
+  opacity:70%;
+}
+
+#introduction * {
+  padding: 3px;
+}
+
+#survey-form {
+  background-color: #eec9d2;
+  margin: 15px 20%;
+  padding: 15px;
+}
+
+.survey-flex {
+  display: flex;
+  flex-direction: column;
+  padding: 7px;
+}
+
+.survey-block {
+  display: block;
+}
