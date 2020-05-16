@@ -15,13 +15,19 @@ body {
   text-align: center;
 }
 
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
 .misc {
   font-size: 40px;
   text-align: center;
 }
 
 #img-div {
-  text-align: center;
   background: white;
   padding: 20px 0 20px 0;
   margin: 20px 30px 20px 30px;
