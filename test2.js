@@ -1,1 +1,4 @@
-console.log(10%1000)
+let cat = {dog:1}
+
+let dog = ...cat;
+console.log(dog)
